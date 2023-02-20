@@ -1,0 +1,568 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+}
+#home{
+    width: 100%;
+    height: 825px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("pics/main2.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    text-align:center;
+    /*background-color: black; */
+}
+#intro{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    justify-content:flex-end;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 80px;
+    transition: ease-in-out 1s;
+    opacity: 70%;
+}
+#title{
+    color: #F7EFE5;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+    font-size: 80px;
+    opacity: 80%;
+}
+#desc{
+    color: #F7EFE5;
+    width: 50%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    opacity: 80%;
+}
+/* 2nd section */
+
+#description{
+    height: 500px; 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 40px 0px 40px;   
+}
+#title2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #006498 ;
+}
+#lemans{
+    color: #F7EFE5;
+}
+#prepare{
+    color: #F7EFE5;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#first-specs{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    align-items: center;
+}
+#agility{
+    display: flex;
+
+}
+#rs4{
+    color: #006498;
+    padding-right: 10px;
+    font-size: 25px;
+}
+#agility-specs{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+#aesthetic{
+    color: #F7EFE5;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+#masterpiece{
+    color: #F7EFE5;
+    font-size: 20px;
+    width: 100%;
+}
+#max{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#performance-title{
+    color: #F7EFE5;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+#top-speed{
+    color: #F7EFE5;
+    font-size: 20px;
+}
+/* Third section */
+
+#ιδιαιτεροτητες{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+}
+#sideviewImage{
+    width: 50%;
+}
+#specImages{
+    width: 100%;
+    height: 50%;
+
+}
+#idiaiterothtesmesh{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#specsUnique{
+    color: #F7EFE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    width: 80%;
+    padding-left: 12%;
+    padding-bottom: 25%;
+}
+#idiaiterothtesakrh{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#interiorInfo{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    justify-content: space-around;
+}
+#into{
+    font-size: 40px;
+    color:#F7EFE5;
+
+
+}
+a{
+    text-decoration: none;
+    color: #F7EFE5;
+    cursor: pointer;
+    font-size: 20px;
+}
+a:hover{
+    color: #006498;
+    transition: 0.4s;
+}
+/* 4th section */
+#speed{
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url("pics/speed.jpg");
+    width: 100%;
+    height: 600px;
+    background-size:cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    text-align:center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#speedIcons{
+    width: 30px;
+}
+#half-width{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+#icon-title{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+#specsInfo{
+   width: 60%;
+   color: #F7EFE5;
+   opacity: 70%;
+   letter-spacing: 1px;
+   font-size: 18px;
+}
+#centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#quote{
+    width: 90%;
+    text-align: left;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    opacity: 100%;
+    color: #F7EFE5;
+}
+/* 4th page */
+
+#countInfo{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("pics/rslogo.jpg");
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;
+    background-color: black;
+}
+#countBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#first{
+    color: white;
+    letter-spacing: 1px;
+    padding-bottom: 60px;
+    opacity: 70%;
+}
+#second{
+    color: white;
+    font-size: 60px;
+    border-left-style: solid;
+    padding-left: 10px;
+    border-left-color: #8F1537;
+}
+/* end */
+
+#end{
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)),url("pics/solo.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#overall{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: #F7EFE5;
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+
+}
+#creds{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#credstext{
+    color: #F7EFE5;
+    padding: 10px;
+}
+
+@media only screen and (max-width:700px){
+
+    body{
+        padding: 10px;
+    }
+    #home{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("pics/close_headlight.jpg");
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-color: black; 
+        overflow: hidden;
+    }
+    #intro{
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+        justify-content:flex-end;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    #title{
+        color: #F7EFE5;
+        font-family: 'Kanit', sans-serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    #desc{
+        color: #F7EFE5;
+        width: 80%;
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    /* 2nd page */
+    #description{
+        margin: 20px;
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    #title2{
+        display: flex;
+        flex-direction: column;
+        border-left-style: solid;
+        border-left-width: 5px;
+        border-left-color: #006498 ;
+        padding-left: 20px;
+    }
+    #lemans{
+        color: #F7EFE5;
+    }
+    #prepare{
+        padding-top: 10px;
+        color: #F7EFE5;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: lighter;
+    }
+    #first-specs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+    #agility{
+        display: flex;
+        margin-right: 25%;
+    
+    }
+    #rs4{
+        color: #006498;
+        padding-right: 10px;
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    #agility-specs{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    #aesthetic{
+        color: #F7EFE5;
+        font-size: 24px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+    #masterpiece{
+        color: #F7EFE5;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 19px;
+    }
+    #max{
+        margin-top: 50px;
+        margin-right: 25%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    #performance-title{
+        color: #F7EFE5;
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    #top-speed{
+        color: #F7EFE5;
+        font-size: 20px;
+    }
+    /* third section */
+    #ιδιαιτεροτητες{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+        margin-top: 100px;
+    }
+    #sideviewImage{
+        width: 100%;
+    }
+    #specImages{
+        width: 100%;
+        height: 50%;
+    
+    }
+    #idiaiterothtesmesh{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction:column-reverse;
+        align-items: flex-end;
+    }
+    #specsUnique{
+        color: #F7EFE5;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        border-bottom-style: solid;
+        padding-bottom: 45px;
+        text-shadow: 1px 10px 25px grey;
+        overflow: hidden;
+    }
+    #idiaiterothtesakrh{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #interiorInfo{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+        justify-content: space-around;
+    }
+    /* 4th section */
+    #speed{
+        margin-top: 670px;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url("pics/speed.jpg");
+        width: 100%;
+        height: 100vh;
+        background-size:cover;
+        background-position: center center;
+        background-repeat:no-repeat;
+        text-align:center;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #half-width{
+        display: grid;
+        width: 100%;
+        padding-top: 30px;
+        grid-template-columns: 1fr 1fr;
+    }   
+    #icon-title{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5px;
+        justify-content: space-around;
+    }
+    #centered{
+        padding-bottom: 20px;
+    }
+    .down{
+        padding-top: 25px;
+    }
+    #specsInfo{
+        width: 90%;
+        color: #F7EFE5;
+        opacity: 90%;
+        letter-spacing: 1px;
+        font-size: 18px;    
+    }
+    .awd{
+        padding-left: 10px;
+    }
+    #quote{
+        color:#F7EFE5;
+        opacity: 100%;
+        width: 100%;
+        font-size: 20px;
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    /* 5th section */
+    #first{
+        color: white;
+        letter-spacing: 1px;
+        padding-bottom: 60px;
+        opacity: 70%;
+        font-size: 18px;
+        padding-right: 10px;
+    }
+    #countInfor{
+        margin-top: 50px;
+    }
+    #second{
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    #end{
+        height: 400px;
+        background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),url("pics/sideview.jpg");
+        background-size:cover;
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-color: black;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    #overall{
+        padding-bottom: 10px;
+        color: #F7EFE5;
+        padding-left: 10px;
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+    #credstext{
+        padding: 0;
+    }
+    #kmh{
+        font-size: 10px;
+    }
+}
